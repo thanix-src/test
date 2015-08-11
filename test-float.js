@@ -24,4 +24,4 @@ var searchFloat = (function() {
 
 })();
 
-window.onLoad(searchFloat.init);
+window.onload = searchFloat.init;
