@@ -12,7 +12,7 @@ var searchFloat = (function() {
             //$('.pull-right > .nav-item').text('Retail');
             $('#head-top-bg label:contains("Search")').text('Birch');
             var searchWrap = $('#global-header .menu-wrapper').html();
-            $('#head-top-bg').append(searchWrap);
+            $('#head-top-bg').appendTo(searchWrap);
         }
     }
 
