@@ -13,7 +13,7 @@ var searchFloat = (function() {
             $('#head-top-bg label:contains("Search")').text('Birch');
             var searchWrap = $('#global-header .menu-wrapper').html();
             //$('#head-top-bg').appendTo(searchWrap);
-            searchWrap.appendTo('#head-top-bg');
+            $('#global-header .menu-wrapper').appendTo('#head-top-bg');
         }
     }
 
