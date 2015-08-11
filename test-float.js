@@ -10,6 +10,7 @@ var searchFloat = (function() {
             console.log('jQuery found.');
             $ = window.jQuery; 
             $('.pull-right > .nav-item').text('Retail');
+            $('#head-top-bg label:contains("Search")').text('Birch');
         }
     }
 
